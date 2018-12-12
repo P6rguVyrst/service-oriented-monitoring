@@ -5,9 +5,9 @@ Application Monitoring Demo description
 ## Quick Start
 
 Run the application:
-    uwsgi --socket 0.0.0.0:5000 --protocol=http -w app_mon:application
+    
 
-    #make run
+    uwsgi --socket 0.0.0.0:5000 --protocol=http -w app_mon.run:application
 
 And open it in the browser at [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
 
