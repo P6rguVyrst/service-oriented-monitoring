@@ -11,6 +11,14 @@ Run the application:
 
 And open it in the browser at [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
 
+Running the application locally in Docker:
+
+    docker build -t test-1 .
+    docker run -p 5000:5000 test-1
+
+Running application in Kubernetes:
+
+    helm upgrade app-mon --namespace monitoring --install app-mon-chart 
 
 ## Prerequisites
 
