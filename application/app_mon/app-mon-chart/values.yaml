@@ -30,11 +30,11 @@ ingress:
     kubernetes.io/tls-acme: "true"
     kubernetes.io/ssl-redirect: "true"
   hosts:
-    - my.routed.fqdn.com
+    - demo.k8s.toomasormisson.com
   tls:
     - secretName: tls-demo-app-mon
       hosts:
-        - my.routed.fqdn.com
+        - demo.k8s.toomasormisson.com
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious
